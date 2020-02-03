@@ -1,4 +1,5 @@
 import { pingPong } from './ping-pong';
+import '../src/styles.css';
 
 $(document).ready(function() {
   $('#ping-pong-form').submit(function(event) {
